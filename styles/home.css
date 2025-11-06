@@ -1,0 +1,56 @@
+@font-face{
+    src: url(/Assets/Fonts/Aldrich-Regular.ttf);
+    font-family: Aldritch;
+    color: --color;
+}
+
+@font-face{
+    src: url(/Assets/Fonts/Goldman-Bold.ttf);
+    font-family: GoldBold;
+}
+
+@font-face{
+    src: url(/Assets/Fonts/Goldman-Regular.ttf);
+    font-family: GoldReg;
+}
+
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+#introduction{
+    font-family: GoldBold, Arial, sans-serif;
+    font-size: 38px;
+}
+
+.navigation{
+    overflow: hidden;
+    background-color: darkgrey;
+    margin: 0px;
+}
+
+.navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.navigation a.split {
+  float: right;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.webInfo {
+    
+}
