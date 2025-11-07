@@ -8,24 +8,24 @@
 <body>
     <div class="navigation">
         <nav>
-            <a href="../pages/home.html">Home</a> |
+            <a class= "active" href="../pages/home.html">Home</a> |
             <a href="../pages/projects.html">Projects</a> 
             <a href="../pages/resume.html">Resume</a> 
             <a href="../pages/contact.html">Contact</a> 
         </nav>
     </div>
     <div id = "introduction">
-        <h1>Hi! I'm Nicholas<br>Welcome to my website!
-        </h1>
+        <h1>Hi! I'm Nicholas<br>Welcome to my website!</h1>
     </div>
-    <div id = "AboutMe">
+    <div id = "aboutMe">
         <p>I am an aspiring game programmer who has just completed my <br>
         Bacherlor's Degree course in Game Development</p>
         <p>Currrently looking for Interships and working on personal projects</p>
     </div>
-    <div id = "openAboutWebsite">
-        <button id = "note">Test</button>
-    </div>
+    <img id = "meImg" src = "../assets/home/me.jpg" alt="pic of me">
+    <button class="openAbout" id = "note">               
+        <img  src="../assets/home/info.png">
+    </button>
     <div class = "aboutWebsite" id = "about">
         <div class = "aboutWebsiteHeader">
             <h1>About the website</h1>
@@ -43,6 +43,9 @@
         </div>
     </div>
     <div class= "overlay" id = "over"></div>
+    <footer id = "footer">
+        <p>©2025 | Nicholas Choong</p>
+    </footer>
     <script src="../scripts/home.js"></script>
 </body>
 </html>

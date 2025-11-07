@@ -1,0 +1,60 @@
+@font-face{
+    src: url(/Assets/Fonts/Aldrich-Regular.ttf);
+    font-family: Aldritch;
+    color: --color;
+}
+
+@font-face{
+    src: url(/Assets/Fonts/Goldman-Bold.ttf);
+    font-family: GoldBold;
+}
+
+@font-face{
+    src: url(/Assets/Fonts/Goldman-Regular.ttf);
+    font-family: GoldReg;
+}
+
+body {
+    margin: 0;
+    background-image: url("/assets/general/background.png");
+    background-repeat: no-repeat;
+    background-color: rgba(59, 58, 58, 0.65);
+    background-blend-mode: color-burn;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navigation{
+  overflow: hidden;
+  background-color: rgb(0, 29, 41);
+  margin: 0px;
+}
+
+.navigation a {
+  float: left;
+  color: rgb(225, 225, 225);
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navigation a:hover {
+  background-color: rgb(61, 92, 103);
+  color: black;
+}
+
+.navigation a.active {
+  background-color: rgb(61, 92, 103);
+  color: black;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 29, 41);
+}

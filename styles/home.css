@@ -15,24 +15,41 @@
 }
 
 body {
-    margin: 0;
-    background-image: url("/assets/general/background.png");
-    background-repeat: no-repeat;
-    background-color: rgba(59, 58, 58, 0.65);
-    background-blend-mode: color-burn;
-    background-size: cover;
+  margin: 0;
+  background-image: url("/assets/general/background.png");
+  background-repeat: no-repeat;
+  background-color: rgba(59, 58, 58, 0.65);
+  background-blend-mode: color-burn;    
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #introduction{
   font-family: GoldBold, Arial, sans-serif;
-  font-size: 38px;
+  font-size: 30px;
   color: rgb(225, 225, 225);
+  margin: 0.75%;
+}
+
+#aboutMe{
+  font-family: Aldritch, Arial, sans-serif;
+  font-size: 25px;
+  color: rgb(225, 225, 225);
+  margin: 0.75%;
+}
+
+#meImg{
+  position: absolute;
+  bottom: 10%;
+  left: 68%;
+  scale: 50%;
+  border: 15px solid #0d6191;
 }
 
 .navigation{
-    overflow: hidden;
-    background-color: rgb(0, 29, 41);
-    margin: 0px;
+  overflow: hidden;
+  background-color: rgb(0, 29, 41);
+  margin: 0px;
 }
 
 .navigation a {
@@ -45,6 +62,11 @@ body {
 }
 
 .navigation a:hover {
+  background-color: rgb(61, 92, 103);
+  color: black;
+}
+
+.navigation a.active {
   background-color: rgb(61, 92, 103);
   color: black;
 }
@@ -69,6 +91,7 @@ body {
   text-align: center;
   padding: 5px, 5px;
 }
+
 .aboutWebsite p{
   text-align: center;
   padding: 20px 25px;
@@ -94,4 +117,24 @@ body {
 .overlay.active {
   opacity: 0.5;
   pointer-events: all;
+}
+
+.openAbout {
+  position: absolute;
+  right: 0%;
+  left: 85%;
+  bottom: 8%;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  scale: 15%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 29, 41);
 }
