@@ -1,16 +1,16 @@
 @font-face{
-    src: url(../Assets/Fonts/Aldrich-Regular.ttf);
+    src: url(../assets/fonts/Aldrich-Regular.ttf);
     font-family: Aldritch;
     color: --color;
 }
 
 @font-face{
-    src: url(../Assets/Fonts/Goldman-Bold.ttf);
+    src: url(../assets/fonts/Goldman-Bold.ttf);
     font-family: GoldBold;
 }
 
 @font-face{
-    src: url(../Assets/Fonts/Goldman-Regular.ttf);
+    src: url(../assets/fonts/Goldman-Regular.ttf);
     font-family: GoldReg;
 }
 

@@ -1,22 +1,22 @@
 @font-face{
-    src: url(../Assets/Fonts/Aldrich-Regular.ttf);
+    src: url(../assets/fonts/Aldrich-Regular.ttf);
     font-family: Aldritch;
     color: --color;
 }
 
 @font-face{
-    src: url(../Assets/Fonts/Goldman-Bold.ttf);
+    src: url(../assets/fonts/Goldman-Bold.ttf);
     font-family: GoldBold;
 }
 
 @font-face{
-    src: url(../Assets/Fonts/Goldman-Regular.ttf);
+    src: url(../assets/fonts/Goldman-Regular.ttf);
     font-family: GoldReg;
 }
 
 body {
   margin: 0;
-  background-image: url("../assets/general/background.png");
+  background-image: url("./assets/general/background.png");
   background-repeat: no-repeat;
   background-color: rgba(59, 58, 58, 0.65);
   background-blend-mode: color-burn;    
