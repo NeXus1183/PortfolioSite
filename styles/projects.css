@@ -28,6 +28,7 @@ body {
   overflow: hidden;
   background-color: rgb(0, 29, 41);
   margin: 0px;
+  width: 100%;
 }
 
 .navigation a {
@@ -37,6 +38,7 @@ body {
   padding: 20px 25px;
   text-decoration: none;
   font-size: 20px;
+  font-family: GoldBold, Arial, sans-serif;
 }
 
 .navigation a:hover {
@@ -49,6 +51,92 @@ body {
   color: black;
 }
 
+.intro1{
+  color: rgb(225, 225, 225);
+  font-family: GoldBold, Arial, sans-serif;
+  font-size: 30px;
+}
+
+.intro2{
+  font-family: Aldritch, Arial, sans-serif;
+  font-size: 30px;
+  color: rgb(225, 225, 225);
+}
+
+.mythicalDateline{
+    position: fixed;
+    scale: 0;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    transition: 100ms ease-out;
+    background-image: repeating-linear-gradient(to left, rgb(255, 196, 0), rgb(255, 213, 5));
+    z-index: 10;
+}
+
+.mythicalDateline.active {
+  scale: 1;
+}
+
+.mythicalDateline h1{
+  margin: 0px;
+  text-align: center;
+  padding: 5px, 5px;
+}
+
+.mythicalDateline p{
+  text-align: center;
+  padding: 20px 25px;
+  font-size: 18px;
+}
+
+.mythicalDateline ul{
+  font-size: 18px;
+}
+
+.overlay {
+  position: fixed;
+  transition: 100ms ease-out;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(38, 38, 38);
+  pointer-events: none;
+}
+
+.overlay.active {
+  opacity: 0.5;
+  pointer-events: all;
+}
+
+.open {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%; 
+  margin-left: 20%;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+.open img{
+    object-fit: cover;
+}
+
+.open .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  width: 100%;
+  padding: 20px;
+}
+
 footer {
   position: fixed;
   left: 0;
@@ -57,4 +145,5 @@ footer {
   text-align: center;
   color: white;
   background-color: rgb(0, 29, 41);
+  font-family: Aldritch, Arial, sans-serif;
 }
