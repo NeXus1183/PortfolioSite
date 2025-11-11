@@ -131,6 +131,10 @@ body {
   scale: 15%;
 }
 
+.openAbout:hover {
+  rotate: 4%;
+}
+
 footer {
   position: fixed;
   left: 0;

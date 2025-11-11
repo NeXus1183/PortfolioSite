@@ -1,7 +1,7 @@
 //const overlay = document.getElementById("over");
-//const about = document.getElementById("about");
+//const mythicalInfo = document.getElementById("md");
 //const note = document.getElementById("note");
-const test = document.getElementById("oM");
+//const mythicalInteract = document.getElementById("oM");
 
 //note.addEventListener("click", event => {
 //    overlay.classList.add("active");
@@ -9,12 +9,12 @@ const test = document.getElementById("oM");
 //})
 
 //overlay.addEventListener("click", event => {
-//    overlay.classList.remove("active");
-//    about.classList.remove("active");
+    //overlay.classList.remove("active");
+    //mythicalInfo.classList.remove("active");
 //})
 
-test.addEventListener("click", event => {
-    console.log("TESTTTTTTT");
-    alert("div clicked");
-})
+//mythicalInteract.addEventListener("click", event => {
+    //overlay.classList.add("active")
+    //mythicalInfo.classList.add("active");
+//})
 

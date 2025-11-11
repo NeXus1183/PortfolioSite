@@ -55,12 +55,14 @@ body {
   color: rgb(225, 225, 225);
   font-family: GoldBold, Arial, sans-serif;
   font-size: 30px;
+  margin: 0.75%;
 }
 
 .intro2{
   font-family: Aldritch, Arial, sans-serif;
   font-size: 30px;
   color: rgb(225, 225, 225);
+  margin: 0.75%;
 }
 
 .mythicalDateline{
@@ -121,10 +123,11 @@ body {
   margin-left: 20%;
   margin-right: auto;
   margin-bottom: 2%;
+
 }
 
 .open img{
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .open .content {
@@ -135,6 +138,14 @@ body {
   color: #f1f1f1; 
   width: 100%;
   padding: 20px;
+}
+
+.open h1{
+  font-family: GoldBold, Arial, sans-serif;
+}
+
+.open p{
+  font-family: Aldritch, Arial, sans-serif;
 }
 
 footer {
