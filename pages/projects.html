@@ -28,7 +28,7 @@
             <p>(Final Year Project 2)</p>
         </div>
     </div>
-     <div class="open" id = "oM">
+     <div class="open" id = "oB">
         <img src="../assets/projects/boardT.png" alt="Now Boarding">
         <div class="content">
             <h1>Now Boarding</h1>
@@ -36,7 +36,7 @@
             <p>(RedGames Jam 2025)</p>
         </div>
     </div>
-     <div class="open" id = "oM">
+     <div class="open" id = "oR">
         <img src="../assets/projects/reignT.png" alt="Rapture Reign">
         <div class="content">
             <h1>Rapture Reign</h1>
@@ -44,7 +44,7 @@
             <p>(Game Project Studio 2)</p>
         </div>
     </div>
-     <div class="open" id = "oM">
+     <div class="open" id = "oS">
         <img src="../assets/projects/sealT.png" alt="The 7th Seal">
         <div class="content">
             <h1>The 7th Seal</h1>
@@ -52,21 +52,179 @@
             <p>(Game Project Studio 1)</p>
         </div>
     </div>
-    <div class = "mythicalDateline" id = "md">
-        <div class = "mythicalHead">
-            <h1>About the website</h1>
+    <div class = "gameInfo" id = "md">
+        <div class = "gameHead">
+            <h1>Mythical Dateline</h1>
         </div>
-        <div class="mythicalAbout" id = "mA">
-            <img src = "../assets/projects/mythT.png" width="500" height="250">
-            <p>This website was made using</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-            <br>
-            <p>I plan to improve and personalize the site in the future<br>
-            through the use of frameworks and other resources</p>
+        <div class="gameAbout" id = "mA">
+            <div class="gameInfoPics" id = "mAP">
+                <img class = "gameInfoPic"  id = "mPic" src = "../assets/projects/myth1.png">
+                <div class = "prevCon" onclick="mythSwitchPrev()">
+                    <a class="prev">❮</a>
+                </div>
+                 <div class = "nextCon" onclick="mythSwitchNext()">
+                    <a class="next">❯</a>
+                </div>
+            </div>
+            <div class="gameInfotText">
+                <p>Mythical Dateline is a visual novel with management simulator elements. <br>
+                It is my Final Year Project that I have worked on with my team.<br>
+                I was the sole lead programmer for the team. This made me be responsible for all the technical aspects for the game.</p>
+                <p>Below are the main features that I have worked on the game:</p>
+                <p>Management Gameplay system</p>
+                <ul>
+                    <li>Spawning of work and rest blocks</li>
+                    <li>Interactions between blocks and the schedule grid</li>
+                    <li>Character stats that change and persist between in-game weeks</li>
+                    <li>Schedule grid layout changes and differs depending on the in-game week</li>
+                </ul>
+                <p>Dynamic Event System</p>
+                <ul>
+                    <li>Random events(Positive, Negative and Neutral) have a change to occur during the management section</li>
+                    <li>Event type to occur are determined by thier weightage</li>
+                    <li>Certain events have subsequent linked events which have a higher chance to spawn based on certain choices</li>
+                    <li>Game also keeps track of how the player is doing to adjust the difficulty</li>
+                    <li>Difficulty adjustment makes the game easier/harder by spawning more positive or negative events</li>
+                </ul>
+                <p>Dialogue System</p>
+                <ul>
+                    <li>Learnt to use the framework Yarn Spinner to help my Game Designer to add story and dialogue into the game more easily</li>
+                    <li>Created the custom display for dialogue with assets from artists</li>
+                    <li>Added functionality to the dialogue system to showcase dialogue history</li>
+                </ul>
+                <p>Third Person Movement System</p>
+                <ul>
+                    <li>Simple movement system for when the player explores the office</li>
+                    <li>Players can interact with the NPCs to progress the story</li>
+                </ul>
+            </div>
+            <div class = "gameLink">
+                  <a href="https://uowmgames.itch.io/mythical-dateline" download>Check out the game here!</a>
+            </div>
+        </div>
+    </div>
+    <div class = "gameInfo" id = "bd">
+        <div class = "gameHead">
+            <h1>Now Boarding</h1>
+        </div>
+        <div class="gameAbout" id = "bA">
+            <div class="gameInfoPics" id = "bAP">
+                <img class = "gameInfoPic"  id = "bPic" src = "../assets/projects/board1.png" height="500" width="350">
+                <div class = "prevCon" onclick="boardSwitchPrev()">
+                    <a class="prev">❮</a>
+                </div>
+                 <div class = "nextCon" onclick="boardSwitchNext()">
+                    <a class="next">❯</a>
+                </div>
+            </div>
+            <div class="gameInfotText">
+                <p>Now Boarding is a hypercasual hidden object game made for browsers.<br>
+                It was made as a submission for RedGames Jam 2025 with my FYP team members.<br>
+                The game was selected as one of the Top 10 games of the jam.</p>
+                <p>As the main programmer of the game I have programmed the following systems:</p>
+                <p>Hidden Object Gameplay</p>
+                <ul>
+                    <li>Hidden Object (which are character features) to be found will be randomly selected from an array of objects</li>
+                    <li>Characters with theses features will enter and bounce around the screen</li>
+                    <li>When the player clicks on a character, it will check if the character has said hidden object</li>
+                    <li>Game will keep track of how many objects found</li>
+                    <li>If player manages to find all objects before time limit, go to next stage otherwise show game over screen</li>
+                    <li>Every subsequent level will increase difficulty by increasing number of objects to find and speed of characters</li>
+                </ul>
+                <p>Random Character Creator</p>
+                <ul>
+                    <li>Create characters from a preset of objects(Head, Face and Body)</li>
+                    <li>System will create a set amount of characters based on the required number of hidden objects to find</li>
+                    <li>These set amount of characters will have the feature to find</li>
+                    <li>Once the characters with said features are generated, other characters will be randomly generated by mix and matching presets</li>
+                    <li>These characters will choose to appear from either 4 sides(Top, Bottom, Left, Right) from outside of the screen</li>
+                    <li>Thier angles which the appear from will be randomized too to add variety.</li>
+                </ul>
+                <div class = "gameLink">
+                  <a href="https://styra101.itch.io/now-boarding" download>Check out the game here!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "gameInfo" id = "rd">
+        <div class = "gameHead">
+            <h1>Rapture Reign</h1>
+        </div>
+        <div class="gameAbout" id = "rA">
+            <div class="gameInfoPics" id = "rAP">
+                <img class = "gameInfoPic"  id = "rPic" src = "../assets/projects/reign1.png" height="500" width="350">
+                <div class = "prevCon" onclick="reignSwitchPrev()">
+                    <a class="prev">❮</a>
+                </div>
+                 <div class = "nextCon" onclick="reignSwitchNext()">
+                    <a class="next">❯</a>
+                </div>
+            </div>
+            <div class="gameInfotText">
+                <p>Rapture Reign is a hack-and-slash action game for Android mobile devices.<br>
+                It was my Game Project Studio 2 game made with my semester classmates.<br>
+                Due to the size of the team, I have chosen to focus on VFX programming.</p>
+                <p>What I worked on:</p>
+                <ul>
+                    <li>Learnt how to use Unity's Shader Graph and VFX Graph.</li>
+                    <li>Worked together with team's artists to incoporate 3D models with the VFX.</li>
+                    <li>Made fullscreen VFX(Game becomes Greyscale and Outlines applied to character and monsters)</li>
+                    <li>Made VFX for both player and monster actions(Attacks, parries, damage effects)</li>
+                </ul>
+                <div class = "gameLink">
+                  <a href="https://uowmgames.itch.io/rapture-reign" download>Check out the game here!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "gameInfo" id = "sd">
+        <div class = "gameHead">
+            <h1>The 7th Seal</h1>
+        </div>
+        <div class="gameAbout" id = "sA">
+            <div class="gameInfoPics" id = "sAP">
+                <img class = "gameInfoPic"  id = "sPic" src = "../assets/projects/seal1.png">
+                <div class = "prevCon" onclick="sealSwitchPrev()">
+                    <a class="prev">❮</a>
+                </div>
+                 <div class = "nextCon" onclick="sealSwitchNext()">
+                    <a class="next">❯</a>
+                </div>
+            </div>
+            <div class="gameInfotText">
+                <p>The 7th Seal is a rougelike card game with a solitaire twist.<br>
+                It was my Game Project Studio 1 game made with my teammates.<br>
+                The game is the first major game that I have worked on.<br>
+                I was the lead programmer on the game and worked together closely with co-progammer.</p>
+                <p>What I worked on:</p>
+                <p>Card Generator Prefab</p>
+                <ul>
+                    <li>I made a Prefab that dynamically generates a card based on what hand the game generates for the player</li>
+                    <li>Amount of card prefabs will be generated based on the player's hand</li>
+                    <li>The players hand contains an array of info about the card(Suits and Number)</li>
+                    <li>The game goes through this array and copies the values to the prefab</li>
+                    <li>The prefab then generates the card from this info by pulling art assets related to the values stored</li>
+                </ul>
+                <p>Card Placement and Detection</p>
+                <ul>
+                    <li>Since the game has a solitaire twist, the placement of cards were important</li>
+                    <li>Therefore, a system that makes sure the cards were placed properly was created</li>
+                    <li>The game has slots above enemies where the cards are played and the player has to fill up these slots to damage the enemy</li>
+                    <li>When a player places a card on the slot, the slot saves the info of the card</li>
+                    <li>These value will be used to influence other slots on the enemy to make sure, the cards played follow the correct number and color sequence</li>
+                    <li>Placing the card on a compatabile slot will lock it in</li>
+                    <li>Placing the card in an incompatible slot/outside the slots will return the card to the player's hand</li>
+                </ul>
+                <p>UI Implementation</p>
+                <ul>
+                    <li>I helped the team's artists to implement the UI assets into the game</li>
+                    <li>The notable parts of the game UI that I have worked on were the main menu and shop UI</li>
+                    <li>Worked on making sure shop UI was responsive after player buys an item</li>
+                </ul>
+                <div class = "gameLink">
+                  <a href="https://uowmgames.itch.io/the-7th-seal" download>Check out the game here!</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class= "overlay" id = "over"></div>
