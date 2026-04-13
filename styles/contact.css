@@ -77,12 +77,14 @@ body {
     overflow: hidden;
     text-align: center;
     padding-left: 10%;
+    z-index: 10;
 }
 
 .mail img{
     scale: 25%;
     vertical-align: middle;
     margin-top: -5%;
+    z-index: 10;
 }
 
 .mail p{
