@@ -74,6 +74,14 @@ function mythSwitchPrev(){
    mythSet();
 }
 
+function mythSwitchCode1Next(){
+   mythIndex++;
+   if (mythIndex >= 6) {
+    mythIndex = 1;
+   }
+   mythSet();
+}
+
 function boardSwitchNext(){
    boardIndex++;
    if (boardIndex >= 6) {
@@ -125,19 +133,19 @@ function sealSwitchPrev(){
 function mythSet(){
     switch (mythIndex) {
     case 5:
-        mythicalPic.src = "../assets/projects/myth5.png"
+        mythicalPic.src = "../assets/projects/Myth/myth5.png"
         break;
     case 4:
-        mythicalPic.src = "../assets/projects/myth4.png"
+        mythicalPic.src = "../assets/projects/Myth/myth4.png"
         break;
     case 3:
-        mythicalPic.src = "../assets/projects/myth3.png"
+        mythicalPic.src = "../assets/projects/Myth/myth3.png"
         break;
     case 2:
-        mythicalPic.src = "../assets/projects/myth2.png"
+        mythicalPic.src = "../assets/projects/Myth/myth2.png"
         break;
     default:
-        mythicalPic.src = "../assets/projects/myth1.png"
+        mythicalPic.src = "../assets/projects/Myth/myth1.png"
         break;
    }
 }
@@ -145,16 +153,16 @@ function mythSet(){
 function boardSet(){
     switch (boardIndex) {
     case 4:
-        boardPic.src = "../assets/projects/board3.png"
+        boardPic.src = "../assets/projects/Board/board3.png"
         break;
     case 3:
-        boardPic.src = "../assets/projects/board3.png"
+        boardPic.src = "../assets/projects/Board/board3.png"
         break;
     case 2:
-        boardPic.src = "../assets/projects/board2.png"
+        boardPic.src = "../assets/projects/Board/board2.png"
         break;
     default:
-        boardPic.src = "../assets/projects/board1.png"
+        boardPic.src = "../assets/projects/Board/board1.png"
         break;
    }
 }
@@ -162,13 +170,13 @@ function boardSet(){
 function reignSet(){
     switch (reignIndex) {
     case 3:
-       reignPic.src = "../assets/projects/reign3.png"
+       reignPic.src = "../assets/projects/Reign/reign3.png"
         break;
     case 2:
-        reignPic.src = "../assets/projects/reign2.png"
+        reignPic.src = "../assets/projects/Reign/reign2.png"
         break;
     default:
-        reignPic.src = "../assets/projects/reign1.png"
+        reignPic.src = "../assets/projects/Reign/reign1.png"
         break;
    }
 }
@@ -176,16 +184,16 @@ function reignSet(){
 function sealSet(){
     switch (sealIndex) {
     case 4:
-        sealPic.src = "../assets/projects/seal4.png"
+        sealPic.src = "../assets/projects/Seal/seal4.png"
         break;
     case 3:
-        sealPic.src = "../assets/projects/seal3.png"
+        sealPic.src = "../assets/projects/Seal/seal3.png"
         break;
     case 2:
-        sealPic.src = "../assets/projects/seal2.png"
+        sealPic.src = "../assets/projects/Seal/seal2.png"
         break;
     default:
-         sealPic.src = "../assets/projects/seal1.png"
+         sealPic.src = "../assets/projects/Seal/seal1.png"
         break;
    }
 }

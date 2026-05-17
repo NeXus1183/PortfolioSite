@@ -228,6 +228,18 @@ body {
   text-decoration: none;
 }
 
+.gameInfoCodePics p{
+  text-align: center;
+  font-family: Aldritch, Arial, sans-serif;
+}
+
+.gameInfoCodePics img{
+  text-align: center;
+  max-width: 70%;
+  margin-left: 15%;
+  margin-right: auto;
+}
+
 footer {
   position: fixed;
   left: 0;

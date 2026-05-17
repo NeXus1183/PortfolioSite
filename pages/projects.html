@@ -21,7 +21,7 @@
         <p>These are the major projects that I have worked on</p>
     </div>
     <div class="open" id = "oM">
-        <img src="../assets/projects/mythT.png" alt="Mythical Dateline">
+        <img src="../assets/projects/Myth/mythT.png" alt="Mythical Dateline">
         <div class="content">
             <h1>Mythical Dateline</h1>
             <p>Work in a event's company filled with mythical creatures.</p>
@@ -29,7 +29,7 @@
         </div>
     </div>
      <div class="open" id = "oB">
-        <img src="../assets/projects/boardT.png" alt="Now Boarding">
+        <img src="../assets/projects/Board/boardT.png" alt="Now Boarding">
         <div class="content">
             <h1>Now Boarding</h1>
             <p>A hidden objects game where you play as the airline staff handling people's boarding pass.</p>
@@ -37,7 +37,7 @@
         </div>
     </div>
      <div class="open" id = "oR">
-        <img src="../assets/projects/reignT.png" alt="Rapture Reign">
+        <img src="../assets/projects/Reign/reignT.png" alt="Rapture Reign">
         <div class="content">
             <h1>Rapture Reign</h1>
             <p>An ASEAN mythological hack and slash made for mobile devices.</p>
@@ -45,7 +45,7 @@
         </div>
     </div>
      <div class="open" id = "oS">
-        <img src="../assets/projects/sealT.png" alt="The 7th Seal">
+        <img src="../assets/projects/Seal/sealT.png" alt="The 7th Seal">
         <div class="content">
             <h1>The 7th Seal</h1>
             <p>A Lovecraftian rougelike with a solitaire twist.</p>
@@ -58,7 +58,7 @@
         </div>
         <div class="gameAbout" id = "mA">
             <div class="gameInfoPics" id = "mAP">
-                <img class = "gameInfoPic"  id = "mPic" src = "../assets/projects/myth1.png">
+                <img class = "gameInfoPic"  id = "mPic" src = "../assets/projects/Myth/myth1.png">
                 <div class = "prevCon" onclick="mythSwitchPrev()">
                     <a class="prev">❮</a>
                 </div>
@@ -78,6 +78,42 @@
                     <li>Character stats that change and persist between in-game weeks</li>
                     <li>Schedule grid layout changes and differs depending on the in-game week</li>
                 </ul>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythGridLocation.png">
+                    <p>Get the column and row position of the grid where mouse is hovering<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythGridRelative.png">
+                    <p>Get the world position of the from the column and row<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythTileStats.png">
+                    <p>Stat varaibles for the tile</p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythSpawnTiles.png">
+                    <p>Function created to spawn the tiles for the player to use<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythTileInteraction.png">
+                    <p>Mouse events for showing tile stats to players when hovering over them<p>
+                </div>
+                 <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythTileSelect.png">
+                    <p>Selects the tile when clicked<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythTileMoveNSnap.png">
+                    <p>Movement of tile and allow snapping to grid if able to be placed<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythTileRotate.png">
+                    <p>Rotates the selected tile<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythTileLock.png">
+                    <p>Locks the tile to the grid when placed<p>
+                </div>
                 <p>Dynamic Event System</p>
                 <ul>
                     <li>Random events(Positive, Negative and Neutral) have a change to occur during the management section</li>
@@ -86,22 +122,78 @@
                     <li>Game also keeps track of how the player is doing to adjust the difficulty</li>
                     <li>Difficulty adjustment makes the game easier/harder by spawning more positive or negative events</li>
                 </ul>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythEventVariables.png">
+                    <p>Variables that help to make up an event<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythEventCanGet.png">
+                    <p>Function to check if the max amount of events has been reached in order to spawn more<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythEventRandDDA.png">
+                    <p>Dynamic difficulty adjustment based on certain values of the game(Character stats, work progress)<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythEventRandDDACont.png">
+                    <p>Continuation of the dynamic difficulty adjustment functions<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythEventChangeWeightage.png">
+                    <p>Change the weightage of certain events appearing after dynamic difficulty adjustment<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythEventResetWeightage.png">
+                    <p>Reset the weightage to original values after an event chain ends<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythEventRandType.png">
+                    <p>Function to randomize the type of event to occur(Positive, Negative, Neutral)<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythEventRandomVals.png">
+                    <p>Function to randomize the stat values that the event will change<p>
+                </div>
                 <p>Dialogue System</p>
                 <ul>
                     <li>Learnt to use the framework Yarn Spinner to help my Game Designer to add story and dialogue into the game more easily</li>
                     <li>Created the custom display for dialogue with assets from artists</li>
                     <li>Added functionality to the dialogue system to showcase dialogue history</li>
                 </ul>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythModDialogueCharSprite.png">
+                    <p>Modified the Yarn Spinner dialogue system to be able to display the sprites of the characters by detecting thier name<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythModDialogueHistory.png">
+                    <p>Another modification to allow the system to save the dialogue and display it as dialogue history<p>
+                </div>
                 <p>Third Person Movement System</p>
                 <ul>
                     <li>Simple movement system for when the player explores the office</li>
                     <li>Players can interact with the NPCs to progress the story</li>
                 </ul>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythPlayerMove.png">
+                    <p>Move and look is called during update and checks for player input in order to move player character<p>
+                </div>
+                 <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Myth/mythPlayerLook.png">
+                    <p>Look logic for the player character and also shows how the player handles collision when needing to interact with another character<p>
+                </div>
                 <p>Challenges and reflections</p>
-                 <ul>
-                    <li>As the project had relatively simple gameplay, I had to help our designer find a way to enchance the gameplay experience</li>
-                    <li>I was also the only programmer on this project which cause</li>
-                </ul>
+                <p>
+                    As the project had relatively simple gameplay, I had to help our designer find a way to enchance the gameplay experience.<br><br>
+                    I was also the only programmer on this project which caused this to be a bit of a challenge on my end.<br><br>
+                    However, I also took this as a learning experience to create something new with minimal guidance.<br><br>
+                    By doing so, I was able to create the Dynamic Event System that can be found in the game which creates various events to add variety to the gameplay.<br><br>
+                    I also managed to add different weightages to each event which will maniuplate the chances of a specific event spawning.<br><br>
+                    Using the weightages, I was able to maniuplate them to create a Dynamic Difficulty Adjustment for the game too<br><br>
+                    This specific feature of my game was the thing I was really proud of.<br><br>
+                    While I may be really proud of the above, I also have some regrets about the game.<br><br>
+                    The first is I wish I communicated better with my team, as I was unable to implement some of the assets they made proprely, and I wished I could have done more to showcase thier work better<br><br>
+                    The second was I wish I could have channeled more efforyt in to other parts of the game to polish them more, to make the whole game more well-rounded in general
+                </p>
             </div>
             <div class = "gameLink">
                   <a href="https://uowmgames.itch.io/mythical-dateline">Check out the game here!</a>
@@ -114,7 +206,7 @@
         </div>
         <div class="gameAbout" id = "bA">
             <div class="gameInfoPics" id = "bAP">
-                <img class = "gameInfoPic"  id = "bPic" src = "../assets/projects/board1.png" height="500" width="350">
+                <img class = "gameInfoPic"  id = "bPic" src = "../assets/projects/Board/board1.png" height="500" width="350">
                 <div class = "prevCon" onclick="boardSwitchPrev()">
                     <a class="prev">❮</a>
                 </div>
@@ -136,6 +228,26 @@
                     <li>If player manages to find all objects before time limit, go to next stage otherwise show game over screen</li>
                     <li>Every subsequent level will increase difficulty by increasing number of objects to find and speed of characters</li>
                 </ul>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Board/boardGameUpdate1.png">
+                    <p>Setting up the game by calling the revelant functions<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Board/boardGameUpdate2.png">
+                    <p>More functions to reset the game state after a level has been completed<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Board/boardGameInteract.png">
+                    <p>How the game handles interactions from the player to check if it matches the object to find<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Board/boardGameInteract.png">
+                    <p>How the game handles interactions from the player to check if it matches the object to find<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Board/boardGameBoundsUpdate.png">
+                    <p>Updates the bounds of the level for the objects for when they move into the scene and when they need to be contained<p>
+                </div>
                 <p>Random Character Creator</p>
                 <ul>
                     <li>Create characters from a preset of objects(Head, Face and Body)</li>
@@ -145,6 +257,30 @@
                     <li>These characters will choose to appear from either 4 sides(Top, Bottom, Left, Right) from outside of the screen</li>
                     <li>Thier angles which the appear from will be randomized too to add variety.</li>
                 </ul>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Board/boardSpawnPeople.png">
+                    <p>Function to randomly generate the character based on an array of sprites<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Board/boardSpawnPeoplePass.png">
+                    <p>Modified function to spawn the minimum amount of characters needed that has the object to be found<p>
+                </div>
+                 <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Board/boardSpawnPeopleStart.png">
+                    <p>Functions to initialze the generation as well as destruction of the characters<p>
+                </div>
+                <p>Challenges and reflections</p>
+                <p>
+                    This game was the result of joing RedGames Jam 2026 while working on our FYP. <br><br>
+                    We took this as an opportunity to take a short break from our FYP while continuing to hone our game development skills further.<br><br>
+                    The main challenge I encountered was the time limit for the game jam.<br><br>
+                    Due to the time constraints of the Game Jam, I was unable to implment all the features that my designer had planned out for the game.<br><br>
+                    This made me realize that I needed to have better time management in order to be able to complete a game in such a small timespan.<br><br>
+                    While certain things could be better in this project, there was also great things that came out of the game.<br><br>
+                    The first one is that our game managed to place Top 10 among all the game in RedGame Jam 2026 which was a huge acheivement.<br><br>
+                    The second is I learnt quite a bit on how to dynamically generate and spawn objects, a concept which I would then use in my FYP for the Dynamic Event System found in it.<br><br>
+                    All in all, this game was a good side project to help us realign ourselves during our FYP and I learnt a lot from it
+                </p>
                 <div class = "gameLink">
                   <a href="https://styra101.itch.io/now-boarding">Check out the game here!</a>
                 </div>
@@ -157,11 +293,11 @@
         </div>
         <div class="gameAbout" id = "rA">
             <div class="gameInfoPics" id = "rAP">
-                <img class = "gameInfoPic"  id = "rPic" src = "../assets/projects/reign1.png" height="500" width="350">
+                <img class = "gameInfoPic"  id = "rPic" src = "../assets/projects/Reign/reign1.png" height="500" width="350">
                 <div class = "prevCon" onclick="reignSwitchPrev()">
                     <a class="prev">❮</a>
                 </div>
-                 <div class = "nextCon" onclick="reignSwitchNext()">
+                <div class = "nextCon" onclick="reignSwitchNext()">
                     <a class="next">❯</a>
                 </div>
             </div>
@@ -176,6 +312,42 @@
                     <li>Made fullscreen VFX(Game becomes Greyscale and Outlines applied to character and monsters)</li>
                     <li>Made VFX for both player and monster actions(Attacks, parries, damage effects)</li>
                 </ul>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Reign/reignOutlineShader.png">
+                    <img src = "../assets/projects/Reign/reignToonShader.png">
+                    <p>The shader graphs for implementing cell shading + adding outlines to an object to create a toon shader<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Reign/reignGlowShader.png">
+                    <p>Shader for the shield parry effect to make the shield glow<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Reign/reignFlameShader.png">
+                    <p>Shader graph made for the flame attack of the player<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Reign/reignSandShader.png">
+                    <p>Sand attack shader made for one of the monsters<p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Reign/reignFullscreenBNW.png">
+                    <p>A fullscreen shader made to turn the game greyscale when the player enters the attack phase<p>
+                </div>
+                <p>Challenges and reflections</p>
+                <p>
+                    This game for our GPS2 subject was the first time that I had worked on a mobile game. <br><br>
+                    This was also the first time that I worked in a large group consisting of 16 people. <br><br>
+                    One of the challenges I faced in the production for this project is learning how to create visual effects in Unity.<br><br>
+                    Therefore, I had to spend time and effort to learn about Unity's Shader Graph system, VFX Graph system and Particle System and how to use them.<br><br>
+                    Another problem I encounetered while making the game is adapting it for mobile, I had to make sure that these effects would be able to run on mobile. <br><br>
+                    Because of that I had to pivot from using VFX graph to the Particle System as VFX graph had issues on mobile. <br><br>
+                    This whole project was a bit rocky but was overall a unique learning expeirence in stepping out of my comofrt zone and coordinating with a lot of people. <br><br>
+                    One thing I wished I have done in this project was helping in other technical aspects of the game that I could help with. <br><br>
+                    This is because I felt everyone was working on thier own small portion of the game instead of working together. <br><br>
+                    If we worked on certain parts of the game together, I believe the game would have been in a better state. <br><br>
+                    All in all, this project was a unique learning experience in regards to creating a mobile game. <br><br>
+                </p>
                 <div class = "gameLink">
                   <a href="https://uowmgames.itch.io/rapture-reign">Check out the game here!</a>
                 </div>
@@ -188,7 +360,7 @@
         </div>
         <div class="gameAbout" id = "sA">
             <div class="gameInfoPics" id = "sAP">
-                <img class = "gameInfoPic"  id = "sPic" src = "../assets/projects/seal1.png">
+                <img class = "gameInfoPic"  id = "sPic" src = "../assets/projects/Seal/seal1.png">
                 <div class = "prevCon" onclick="sealSwitchPrev()">
                     <a class="prev">❮</a>
                 </div>
@@ -210,6 +382,10 @@
                     <li>The game goes through this array and copies the values to the prefab</li>
                     <li>The prefab then generates the card from this info by pulling art assets related to the values stored</li>
                 </ul>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Seal/sealCardCreator.png">
+                    <p>Function to create the card based on a randomized value passed to the function</p>
+                </div>
                 <p>Card Placement and Detection</p>
                 <ul>
                     <li>Since the game has a solitaire twist, the placement of cards were important</li>
@@ -220,12 +396,41 @@
                     <li>Placing the card on a compatabile slot will lock it in</li>
                     <li>Placing the card in an incompatible slot/outside the slots will return the card to the player's hand</li>
                 </ul>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Seal/sealDetectionSlot.png">
+                    <p>Function to manipulate the appearence of the slots based on the type of the card that has been placed</p>
+                </div>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Seal/sealDetectionReset.png">
+                    <p>Function to reset all the slots after a player manages to damage the enemy</p>
+                </div>
                 <p>UI Implementation</p>
                 <ul>
                     <li>I helped the team's artists to implement the UI assets into the game</li>
                     <li>The notable parts of the game UI that I have worked on were the main menu and shop UI</li>
                     <li>Worked on making sure shop UI was responsive after player buys an item</li>
                 </ul>
+                <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Seal/sealItemUIShop.png">
+                    <p>Some functions created to manipulate the UI in the shop depending on the item that the player decides to buy</p>
+                </div>
+                 <div class="gameInfoCodePics">
+                    <img src = "../assets/projects/Seal/sealUIHealthBar.png">
+                    <p>Functions that I have created to change the UI for the player health and shield</p>
+                </div>
+                <p>Challenges and reflections</p>
+                <p>
+                    This was my very first real game project in Unity as well as the first time that I have worked with a team of designers, artists and other programmers on a proper game. <br><br>
+                    Therefore, my code in this particular project may not be as clean as later projects as I was mostly learning how to use C# and Unity as an engine. <br><br>
+                    This was also my first time using version control for a project as I was working with another programmer on the game. <br><br>
+                    Therefore, I had to learn quite a bit in order to be able to contribute to the project. <br><br>
+                    Another challenge I had to face was learning how to communicate with designers and artists. <br><br>
+                    I had to learn how to communicate properly with them to help them understand what can be done or cannot be done for the game. <br><br>
+                    As this was my first actual experience in a semi proper development enviroment, I have learnt a lot of stuff from this project. <br><br>
+                    Looking back, there was a couple of things that I would have done differently if I could. <br><br>
+                    These things would have been to focus on learning the essestial parts of Unity for the game, as I still struggled with it towards the later half of deveopment. <br><br>
+                    And also, I would have communicated differently with my teammates as it would probably have helped to streamline production. <br><br>
+                </p>
                 <div class = "gameLink">
                   <a href="https://uowmgames.itch.io/the-7th-seal">Check out the game here!</a>
                 </div>
